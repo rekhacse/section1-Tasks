@@ -20,7 +20,7 @@ def find_path(graph, start, end, path=[]):
         
         
 # >>> find_path(graph, 'A', 'D')
-    ['A', 'B', 'C', 'D']
+#    ['A', 'B', 'C', 'D']
     
     
 def find_all_paths(graph, start, end, path=[]):
@@ -40,7 +40,7 @@ def find_all_paths(graph, start, end, path=[]):
         
         
 #>>> find_all_paths(graph, 'A', 'D')
-    [['A', 'B', 'C', 'D'], ['A', 'B', 'D'], ['A', 'C', 'D']]
+#    [['A', 'B', 'C', 'D'], ['A', 'B', 'D'], ['A', 'C', 'D']]
     
     
     
@@ -61,6 +61,6 @@ def find_shortest_path(graph, start, end, path=[]):
         
         
 #>>> find_shortest_path(graph, 'A', 'D')
-    ['A', 'C', 'D']
+#    ['A', 'C', 'D']
         
         
